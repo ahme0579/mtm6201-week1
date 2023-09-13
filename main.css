@@ -15,11 +15,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    max-width: 100%;
+
 }
 .about-1-content > div{
     background: #78597e;
-    padding: 4rem 4rem 2.5rem 5rem;
+    padding: 2rem 4rem 2rem 4rem;
     text-align: center;
 }
 
@@ -64,38 +65,25 @@ body{
 .shadow:hover::after{
     opacity: 1;
 }
-.about-1-content h2{
-    font-size: 2rem;
+dl{
+    font-size: 1rem;
     margin: 2.2rem 0 0.6rem 0;
-    line-height: 1.2;
+    line-height: 1.6;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #edffec;
-}
-.about-1-content h3{
-    text-transform: uppercase;
+    border-bottom: 2px solid #f0acfd;
     font-weight: 300;
-    letter-spacing: 5px;
     margin-top: 1.2rem;
 }
 
-.about-2{
-    background: #78597e;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5rem;
-    text-align: center;
+dt{
+    font-weight: bold;
+    font-size:1.1rem ;
+    margin-top: 1rem;
 }
 
-
-.about-2 h2{
-    font-weight: 600;
+.about-1 h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 1.5rem;
 }
 
-.about-para p{
-    font-weight: 300;
-    padding: 0.5rem;
-    opacity: 0.8;
-}
